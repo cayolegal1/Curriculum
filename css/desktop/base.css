@@ -1,0 +1,21 @@
+* {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+:root {
+
+    --font-size-title : 1.8rem;
+    --font-size-text: 1.5rem;
+    --img-width: 19.0rem;
+    --img-height: 20.5rem;
+}
+
+.main {
+    display: flex;
+}
+
+

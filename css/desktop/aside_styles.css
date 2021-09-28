@@ -1,0 +1,109 @@
+.aside {
+    width: 141.5%;
+    background-color: #0000ff8a;
+    height: 154.0rem;
+    position: relative;
+    transition: 1s;
+}
+
+.container-img {
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 23.0rem;
+}
+
+.img {
+
+    border-radius: 50%;
+    margin-top: 2.4rem;
+    width: var(--img-width);
+    height: var(--img-height);
+}
+
+.pic {
+
+    
+    margin-top: 2.4rem;
+    border-radius: 50%;
+    width: var(--img-width);
+    height: var(--img-height);
+}
+
+.pic-display {
+
+    display: none;
+}
+
+
+.field {
+
+    display: flex;
+    margin-top: 3.5rem;
+    flex-direction: column;   
+} 
+
+
+
+.field-title {
+
+    margin: 0 auto;
+    font-size: var(--font-size-title);
+    text-transform: uppercase;
+    width: 23.0rem;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: #170f0fa8;
+    color: lightyellow;
+    transition: 1s;
+}
+
+.field-title:hover {
+    background-color: #35292982;
+}
+
+.field-text {
+
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    width: 23.0rem;
+    font-size: var(--font-size-text);
+    text-align: justify;
+    list-style: none;
+}
+
+
+.profile {
+    line-height: 2.5rem;
+}
+
+.extra-info {
+    margin-top: 2.5rem;
+}
+
+.extra-info-text {
+
+    font-size: 2.5rem;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 23.0rem;
+}
+
+
+.mail {
+    text-decoration: none;
+    color: #0b5997;
+    transition: 1s; 
+}
+
+
+.mail:hover {
+    color: #086fc0;
+}
+
+
+
+
+

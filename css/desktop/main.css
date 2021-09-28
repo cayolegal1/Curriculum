@@ -1,0 +1,166 @@
+.main-section {
+
+    position: relative;
+    margin-left: 9.5rem;
+    width: 75%;
+    margin-top: 0;
+}
+
+.name-container {
+
+    height: 11.0rem;
+    background-color: #170f0fa8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.name {
+
+    font-family: 'Gelasio', serif;
+    font-size: 5.6rem;
+    font-size: 'Roboto';
+    font-weight: 1000;
+    color: lightyellow ;
+    margin-left: 4rem;
+    transition: 1s;
+}
+
+.name:hover {
+
+    transition: 1s;
+}
+
+.container{
+
+    margin-top: 3.0rem;
+}
+
+.container h1 {
+
+    text-align: center;
+}
+
+.main-title {
+
+    width: 80%;
+    margin-left: 14.5rem;
+}
+
+.guion {
+    font-size: 1.5rem;
+}
+
+.profesional-exp-data {
+
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: 2.0rem;
+}
+
+.age-exp {
+    font-size: var(--font-size-text);
+    margin-left: 2rem;
+    color: grey;
+    margin-top: 1rem;
+}
+
+.company-exp {
+    margin:auto;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(128, 120, 120);
+}
+
+.stand-exp {
+
+    font-size: 2.4rem;
+    color: grey;
+    margin:auto;
+    padding-right: 1.5rem;
+}
+
+.exp-container {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.ul {
+    
+    margin-top: 1rem;
+    line-height: 3.2rem;
+
+}
+
+.exp {
+
+    font-size: 1.5rem;
+    list-style: none;
+    margin-left: 8.0rem;
+}
+
+.kfir {
+
+    margin-left: 35.0rem;
+}
+
+.asesor{
+    margin-left: 46.0rem;
+}
+
+.studies-field {
+
+    margin-top: 2rem;
+}
+
+.studies-list {
+
+    line-height: 10px;
+}
+
+.div-li {
+    margin-top: 3rem;
+}
+
+.studies {
+
+    color: gray;
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+.age-study {
+
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    font-weight: 100;
+}
+
+.place-study {
+
+    margin-top: 3rem;
+    color: black;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: 100;
+}
+
+.programs-field {
+
+    display: flex;
+    justify-content: center;
+    margin-left: 9rem;
+}
+
+.programs {
+
+    text-align: center;
+    line-height: 1rem;
+    color: gray;
+}

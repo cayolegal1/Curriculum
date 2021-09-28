@@ -1,0 +1,61 @@
+.name {
+    animation: opacity 2s;
+    animation-timing-function:linear;
+    transition: 1s;
+}
+
+
+.img-animation {
+
+    animation-name: slider;
+    animation-duration: 6.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+@keyframes opacity {
+    0%{
+        opacity: 0;
+    }
+
+   
+
+    50% {
+        opacity: 0.5;
+        color: rgb(231, 231, 128);
+    }
+
+   
+
+    100% {
+        opacity: 1;
+        color: lightgoldenrodyellow;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+@keyframes slider {
+
+    0% {
+        right: 5rem;
+
+    }
+
+    50%{
+
+        right: 37.3rem;
+        
+    }
+
+    100% {
+        
+        right: 4rem;
+        
+    }
+}

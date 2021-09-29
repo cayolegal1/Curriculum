@@ -5,8 +5,8 @@
     .main {
 
         max-width: 64.0rem;
-        overflow: hidden;
-        height: 119.3rem;
+        /* overflow: hidden; */
+        height: 100%;
     }
     .main-section {
 
@@ -22,7 +22,11 @@
     .container {
 
         margin-top: 2.6rem;
+        align-items: center;
+        position: relative;
     }
+        
+
 
     .main-title {
 
@@ -38,23 +42,23 @@
     .age-exp {
 
         font-size: 1rem;
-        margin-left: 1.2rem;
+        position: absolute;
+        left: 6px;
+        margin: 0;
+        padding-top: 0.5rem;
     }
 
     .company-exp {
 
         font-size: 1.5rem;
-        margin-top: 0.8rem;
-        /* margin: 0 auto; */
-        margin-left: 3rem; /*corregir por el de arriba*/
+        margin: 0 auto;
     }
+
 
     .stand-exp {
 
         font-size: 1.9rem;
         padding: 0;
-        /* margin: 0 auto; */
-        margin-right: 7.2rem;/*corregir por el de arriba*/
     }
 
     .ul {
@@ -73,12 +77,13 @@
 
         font-size: 21px !important;
         margin-top: 1px !important;
-        margin-left: 79px;
+        padding-right: 0;
     }
 
     .asesor {
 
-        margin-left: 9.5rem;
+        margin-left: 0;
+        line-height: 2.2rem;
     }
 
     .place-study {

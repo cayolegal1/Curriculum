@@ -35,6 +35,8 @@
 .container{
 
     margin-top: 3.0rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .container h1 {
@@ -106,12 +108,10 @@
 
 .kfir {
 
-    margin-left: 35.0rem;
+    padding-right: 4.5rem;
 }
 
-.asesor{
-    margin-left: 46.0rem;
-}
+
 
 .studies-field {
 
@@ -121,6 +121,8 @@
 .studies-list {
 
     line-height: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .div-li {

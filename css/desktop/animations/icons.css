@@ -1,8 +1,14 @@
+
+
+.contenedor-iconos {
+    position: relative;
+}
+
 .super-container-icons {
 
     width: 25%;
     position: absolute;
-    bottom: 1.8rem;
+    bottom: 0;
     right: 2.5rem;
 }
 

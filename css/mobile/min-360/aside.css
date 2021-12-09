@@ -63,19 +63,17 @@
         justify-content: end;
     }
 
-    .grid-container {
+    /* .grid-container {
 
         display: grid;
         justify-content: space-between;
-    }
+    } */
 
     .super-container-icons {
         
         bottom: -6rem;
         right: 1.5rem;
     }
-
-
 
     .icons-list {
 

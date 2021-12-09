@@ -59,6 +59,14 @@
 
         margin-top: 11px;
         line-height: 19px;
+        display: grid;
+        justify-content: end;
+    }
+
+    .grid-container {
+
+        display: grid;
+        justify-content: space-between;
     }
 
     .super-container-icons {

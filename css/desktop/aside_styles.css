@@ -107,7 +107,7 @@
 .grid {
     display: grid;
     justify-content: space-between;
-    grid-template-columns: 100px 50px; 
+    grid-template-columns: 200px 50px; 
     justify-content: space-between;
     
 }

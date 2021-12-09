@@ -20,8 +20,8 @@
     .field {
 
         margin-top: 1.5rem;
-        padding-right: 15px;
-        margin-left: 10px
+        padding-right: 1.5rem;
+        margin-left: 1.0rem
 
     }
 
@@ -33,8 +33,8 @@
     .field-title {
 
         width: 105%;
-        font-size: 9px;
-        margin-top: 8px;
+        font-size: 0.9rem;
+        margin-top: 0.8rem;
     }
 
     .field-text {
@@ -45,7 +45,7 @@
 
     .extra-info {
 
-        margin-left: 4px;
+        margin-left: 0.4rem;
     }
 
     .extra-info-text {
@@ -57,39 +57,30 @@
 
     .tech {
 
-        margin-top: 11px;
-        line-height: 19px;
-        display: grid;
-        justify-content: end;
-    }
-
-    /* .grid-container {
-
+        margin-top:1.1rem;
+        line-height: 1.9rem;
         display: grid;
         justify-content: space-between;
-    } */
-
-    .super-container-icons {
-        
-        bottom: -6rem;
-        right: 1.5rem;
     }
 
-    .icons-list {
+    .grid {
 
-        line-height: 3.0rem;
-    }
-
-    .icon {
-
-        font-size: 16px;
-        width: 15px;
-        height: 14px;
+        grid-template-columns: 5.0rem 5.0rem;
+        position: relative;
     }
 
     .icon-higher {
 
-        font-size: 16px;
+        font-size: 1.6rem;
+    }
+
+    .icon-mobile {
+
+        position: absolute;
+        right: 0;
+        font-size: 1.6rem;
+        width: 1.5rem;
+        height: 1.4rem;
     }
 
 

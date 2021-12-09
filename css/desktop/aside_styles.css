@@ -91,6 +91,11 @@
     width: 23.0rem;
 }
 
+.link {
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
 
 .mail {
     text-decoration: none;

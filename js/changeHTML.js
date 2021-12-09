@@ -31,13 +31,13 @@ function changeHTML() {
 
         company.textContent = "NBS LATAM"
 
-        ul.firstElementChild.textContent =  "- Administración de cuentas de clientes"
+        ul.firstElementChild.textContent =  "Administración de cuentas de clientes"
 
-        ul.children[1].textContent = "- Aplicación de pagos de clientes de la región Plata"
+        ul.children[1].textContent = "Aplicación de pagos de clientes de la región Plata"
 
-        ul.children[3].textContent = "- Operativa basada en objetivos KPI "
+        ul.children[3].textContent = "Operativa basada en objetivos KPI "
 
-        another_ul.firstElementChild.textContent = "- Venta de créditos"
+        another_ul.firstElementChild.textContent = "Venta de créditos"
 
         year_kfir.textContent = "2019"
 

@@ -4,7 +4,7 @@ let body = document.querySelector('body')
 
 const toggleLanguage = (event) => {
 
-    // event.preventDefault()
+    event.preventDefault()
 
     if(window.location.href === "file:///C:/Users/usuario/Documents/CV/index.html" 
     ) {
@@ -15,7 +15,12 @@ const toggleLanguage = (event) => {
 
     } else if(window.location.href === "https://cayolegal1.github.io/Curriculum/") {
 
-        window.location = ""
+        window.location = "https://cayolegal1.github.io/Curriculum/en.html"
+
+    } else if (window.location.href === "https://cayolegal1.github.io/Curriculum/en.html") {
+
+
+        window.location = "https://cayolegal1.github.io/Curriculum/"
     }
     
     else {

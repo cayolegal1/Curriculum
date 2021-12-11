@@ -37,6 +37,15 @@
 }
 
 
+.toggle {
+
+    text-decoration: none;
+    color: lightyellow;
+    /* font-weight: bolder; */
+    font-size: 16rem;
+
+}
+
 .field {
 
     display: flex;

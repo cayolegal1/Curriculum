@@ -4,7 +4,7 @@ let body = document.querySelector('body')
 
 const toggleLanguage = (event) => {
 
-    event.preventDefault()
+    // event.preventDefault()
 
     if(window.location.href === "file:///C:/Users/usuario/Documents/CV/index.html" 
     ) {

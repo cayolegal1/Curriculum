@@ -8,7 +8,7 @@ let ul = document.querySelector('.ul')
 
 let another_ul = document.querySelector('.ul-kfir')
 
-year_kfir = document.querySelector('.age')
+let year_kfir = document.querySelector('.age')
 
 let title = document.querySelector('.title')
 

@@ -1,4 +1,4 @@
-@media screen  and (min-width: 360px) and (max-width: 640px) {
+@media screen  and (min-width: 250px) and (max-width: 640px) {
     
     .aside {
         width: 13.5rem;
@@ -60,9 +60,14 @@
 
     }
 
+    .phone {
+
+        font-size: 1rem !important;
+    }
+
     .link {
 
-        font-size: 1.1rem;
+        font-size: 1.6rem;
     }
 
     .tech {
@@ -104,5 +109,9 @@
         width: 1.7rem;
     }
 
+    .fill-content-aside {
+
+        height: 0rem;
+    }
 
 }

@@ -4,16 +4,27 @@
     transition: 1s;
 }
 
+.onload-anim {
 
-.img-animation {
-
-    animation-name: slider;
-    animation-duration: 6.3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-name: onLoad;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    transition: 3s;
 }
 
+@keyframes onLoad {
 
+    0%{
+        color: white;
+        transition: 2s;
+
+    }
+
+    100% {
+        color: black;
+        transition: 2s;
+    }
+}
 
 @keyframes opacity {
     0%{
@@ -39,23 +50,3 @@
 
 
 
-
-@keyframes slider {
-
-    0% {
-        right: 5rem;
-
-    }
-
-    50%{
-
-        right: 37.3rem;
-        
-    }
-
-    100% {
-        
-        right: 4rem;
-        
-    }
-}

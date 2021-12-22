@@ -40,10 +40,18 @@
 .toggle {
 
     text-decoration: none;
-    color: lightyellow;
+    color: white;
     /* font-weight: bolder; */
     font-size: 1.6rem;
+    transition: 1s;
+}
 
+.toggle:hover {
+
+    transition: 1s;
+    color: lightyellow;
+    text-decoration: underline;
+    
 }
 
 .field {
@@ -51,6 +59,7 @@
     display: flex;
     margin-top: 3.5rem;
     flex-direction: column;   
+    position: relative;
 } 
 
 
@@ -71,6 +80,7 @@
 
 .field-title:hover {
     background-color: #35292982;
+
 }
 
 .field-text {
@@ -81,6 +91,7 @@
     font-size: var(--font-size-text);
     text-align: justify;
     list-style: none;
+    /* color: white; */
 }
 
 
@@ -98,35 +109,50 @@
     text-decoration: none;
     margin: 0 auto;
     width: 23.0rem;
+    /* color: white; */
 }
 
-.link {
+.phone {
     font-size: 1.6rem;
     text-decoration: none;
     color: #0b5997;
+    transition: 1s;
 }
 
-
-.mail {
-    text-decoration: none;
-    color: #0b5997;
-    transition: 1s; 
-}
-
-
-.mail:hover {
+.phone:hover {
     color: #086fc0;
+    transition: 1s;
 }
 
+.link {
+    font-size: 2.5rem;
+    color: #0b5997;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.link:hover {
+    color: #086fc0;
+    transition: 1s;
+}
 
 .grid {
     display: grid;
     justify-content: space-between;
     grid-template-columns: 200px 50px; 
     justify-content: space-between;
+    grid-auto-rows: 20px;
     
 }
 
+.fill-content-aside {
 
+    height: 7rem;
+}
+
+#sap {
+
+    margin-bottom: 1rem;
+}
 
 

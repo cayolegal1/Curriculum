@@ -1,41 +1,45 @@
-// let firts_image = document.querySelector('.img')
-// let second_image = document.querySelector('.pic')
+let media_desktop = window.matchMedia("(max-width: 640px)")
+
+let nbs_company = document.querySelector("#compañia")
+
+let current_position = document.querySelector("#current-position")
+
+let experiences = document.querySelectorAll(".exp")
+
+let programs = document.querySelector('.programs-media')
+
+let ul = document.querySelector('.ul')
+
+let another_ul = document.querySelector('.ul-kfir')
+
+let year_kfir = document.querySelector('.age')
+
+const responsive_html = () => {
+
+    if(media_desktop.matches) {
+
+        nbs_company.textContent = "NBS LATAM"
+
+        current_position.textContent = "O2C Sr Asocciate"
+
+        programs.classList.add("none")
+
+        ul.firstElementChild.textContent = "Management of customers accounts."
+
+        ul.children[1].textContent = "Payment Application for Plata market."
+
+        ul.children[2].textContent = "Operational based on KPI."
+
+        ul.removeChild(ul.children[3])
 
 
-// firts_image.addEventListener('mouseenter', make_display_none)
+        // for(let exp = 0; exp <= experiences.length; exp++) {
 
-
-
-// function make_display_none() {
-    
-    //     if(firts_image.style.right == 50 )
-    
-    //     setTimeout( () => {
-        
-        //         second_image.classList.add('pic-display')
-        //     },3000)
+        //     experiences[exp].style.color = "red"
         // }
-        
-        // function make_animation() {
-            
-            //     firts_image.classList.add('img-animation')
-            
-            //     make_display_none()
-            
-            // }
-
-
-window.onload = make_name_anim()
-
-
-let nombre = document.querySelector('.name')
-
-function make_name_anim() {
-
-    nombre.classList.add('animation-name')
-
+    }
 }
-
+window.onload = responsive_html()
 
 
 
